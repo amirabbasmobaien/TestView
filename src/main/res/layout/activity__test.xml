@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Test">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شرکت مبتا"
+            android:id="@+id/Textview1"
+            android:textSize="@dimen/normal_font_size"
+            android:padding="@dimen/Standard_Margin"
+            android:layout_alignParentRight="true"
+            />
+
+
+    <RadioGroup
+       android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+        android:layout_alignParentRight="true">
+
+            <RadioButton
+                android:id="@+id/first_rd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مرحله اول "/>
+            <RadioButton
+                android:id="@+id/second_rd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="مرحله دوم "/>
+</RadioGroup>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ورود"
+    android:layout_marginTop="100dp"
+
+    />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
